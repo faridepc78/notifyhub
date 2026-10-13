@@ -14,3 +14,5 @@ htmlcov/
 *.log
 staticfiles/
 media/
+*.zip
+.env.local
