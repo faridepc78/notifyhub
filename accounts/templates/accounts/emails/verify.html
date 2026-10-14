@@ -1,0 +1,16 @@
+{% extends "accounts/emails/base.html" %}
+
+{% block content %}
+<h2>Verify your email</h2>
+
+<p>Hello {{ username }},</p>
+
+<p>Use the following credentials to verify your email address:</p>
+
+<p><strong>UID:</strong> {{ uid }}</p>
+<p><strong>Token:</strong> {{ token }}</p>
+
+<p>This verification token expires in 1 hour.</p>
+
+<p>If you didn't create an account, ignore this email.</p>
+{% endblock %}
